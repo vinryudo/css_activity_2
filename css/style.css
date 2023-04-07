@@ -116,45 +116,45 @@ section[id="blog"] > div > a:hover{
     color: aqua;
 }
 
+section[id="services"]{
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
 
+section[id="services"] > h2{
+    font-size: 28px;
+    margin: 0;
+    margin-left: 10px;
+}
 
+section[id="services"] > ul{
+    padding-right: 37px;
+}
 
+section[id="services"] > ul > li{
+    font-size: 13px;
+    font-weight: 520;
+    background-color: white;
+    display: inline-block;
+    margin: 14px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-shadow: 0 0 1px rgb(0, 0, 0, 0.5);
+}
 
+section[id="services"] > ul > li:first-child{
+    background-color: #ff4500;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section[id="services"] > ul > li:hover{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
 
 @media only screen and (max-width: 600px){
     section[id="blog"]{
